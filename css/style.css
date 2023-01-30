@@ -483,19 +483,25 @@ img {
 
     /* Content Principal */
     .content-principal {
-        /* flex-direction: column; */
         align-items: center;
         flex-wrap: wrap;
     }
 
-    /* Picture */
-    .section-picture__img:hover {
-        width: 400px;
+    .section-picture {
+        display: grid;
+        gap: 10px;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 50px;
     }
 
-    /* Section Third */
-    .button-third {
-        border-bottom: 1px dotted var(--blanco);
+    .section-picture__img:nth-child(8) {
+        grid-column: 3 / 4;
+    }
+
+    .section-picture__img {
+        width: 500px;
+        opacity: 1;
     }
 
     /* Grid Section / Sidebar */
@@ -839,11 +845,11 @@ img {
         }
 
         75% {
-            transform: translateY(10%) translateX(-60%) scale(.2);
+            transform: translateY(0%) translateX(-60%) scale(.2);
         }
 
         100% {
-            transform: translateY(0%) translateX(45%) scale(.7);
+            transform: translateY(-15%) translateX(45%) scale(.7);
             filter: drop-shadow(5px 5px 5px green);
         }
     }
