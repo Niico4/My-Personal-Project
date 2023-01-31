@@ -28,7 +28,7 @@ html {
     box-sizing: inherit;
 }
 
-/* Global */
+/*  Global */
 
 body {
     background-color: var(--colorPrimario);
@@ -71,7 +71,6 @@ img {
 
 .button {
     all: unset;
-
 }
 
 .button:hover {
@@ -366,7 +365,6 @@ img {
         transform: translateY(60%) translateX(-100%) scale(.4);
     }
 
-
     100% {
         transform: translateY(40%) translateX(90%) scale(1);
         filter: drop-shadow(5px 5px 5px green);
@@ -471,7 +469,6 @@ img {
             transform: translateY(80%) translateX(-120%) scale(.4);
         }
 
-
         100% {
             transform: translateY(50%) translateX(100%) scale(1);
             filter: drop-shadow(5px 5px 5px green);
@@ -534,7 +531,6 @@ img {
         75% {
             transform: translateY(40%) translateX(-120%) scale(.4);
         }
-
 
         100% {
             transform: translateY(10%) translateX(100%) scale(1);
@@ -650,14 +646,11 @@ img {
             transform: translateY(10%) translateX(-80%) scale(.2);
         }
 
-
         100% {
             transform: translateY(0%) translateX(65%) scale(.7);
             filter: drop-shadow(5px 5px 5px green);
         }
     }
-
-
 }
 
 @media screen and (max-width:480px) {
