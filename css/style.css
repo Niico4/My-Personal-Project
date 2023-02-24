@@ -1125,4 +1125,9 @@ img {
     .section-2__video:nth-child(2) {
         margin: 0;
     }
+/*! TERMINAR RESPONSIVE GTA */
+    /* * GTA */
+    .section-gta__content {
+        width: 100%;
+    }
 }
